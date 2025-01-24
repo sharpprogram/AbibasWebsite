@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poetsen+One&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="https://1000logos.net/wp-content/uploads/2016/10/Adidas-Logo.png" type="image/x-icon">
+    <title>Abibas Official Website</title>
+    <style>
+            #centerimage a{
+                text-decoration: none;
+            }
+            #about{
+                color: white;
+            }
+            #Customer{
+                color: white;
+            }
+            #quicklinks{
+                color: white;
+            }
+            #Connect{
+                color: white;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid justify-content-center" id="cont">
+                <a class="navbar-brand" href="/">
+                    <img src="../static/images/tbc-logo.png" alt="Logo"  class="d-inline-block align-text-top" id="logo">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent"
+                    aria-controls="navbarContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+                    <ul class="navbar-nav" >
+                        <li class="nav-item active" >
+                            <a class="nav-link" aria-current="page" href="/" id="navbartext">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact" id="navbartext">Contact us</a>
+                        </li>
+                        <li class="nav-item" id="navbartext">
+                            <a class="nav-link" href="/news" id="navbartext">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about"id="navbartext">About</a>
+                        </li>
+                        <li class="nav-item" id="navbartext">
+                            <a class="nav-link" href="/signupadiclub" id="singup">join Adiclub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </header>
+     {%block content%}
+     {%endblock%}
+     <br>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4 id="about">About Abibas</h4>
+                <ul>
+                    <li><a href="#">Company Info</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 id="Customer">Customer Service</h4>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Shipping</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 id="quicklinks"> Quick Links</h4>
+                <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Men's</a></li>
+                    <li><a href="#">Women's</a></li>
+                    <li><a href="#">Kid's</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 id="Connect">Connect with Us</h4>
+                <div class="social-media">
+
+                </div>
+                <div class="contact-info">
+                    <p>Customer Service: +999 999 999</p>
+                    <p>Email: officialAbibas@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="lastadi">&copy; 2025 Abibas. All rights reserved.</p>
+        </div>
+    </footer>
+    <style>
+.navbar {
+    padding: 0px 0;
+}
+
+
+
+.navbar-brand img {
+    height: 30px;
+    width: auto;
+}
+
+.nav-link {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.nav-item.active .nav-link {
+    font-weight: bold; 
+}
+#navbartext{
+    color: black;
+}
+.textforimg{
+    color: white;
+    float: left;
+    margin-top: 370px;
+    margin-left: 50px;
+}
+.undertext{
+    color: white;
+    float: left;
+    margin-top: 400px;
+    margin-left: -220px;
+}
+
+.undertext2{
+
+    color: white;
+    float: left;
+    margin-top: 425px;
+    margin-left: -290px;
+}
+
+#imgbtn{
+    align-self: flex-start;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s;
+    border: solid white 2px;
+    float: left;
+    margin-top: 450px;
+    margin-left: -361px;
+
+}
+
+
+#imgbtn:hover{
+    border-color: black;
+}
+
+body {
+    font-family:  "Poetsen One", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    flex-grow: 1;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.card-groupbottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+    margin-top: 100px;
+}
+
+
+.card-btn {
+    align-self: flex-start;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    
+}
+
+.card-btn:hover  {
+    background-color: white;
+    color: black;
+    
+}
+.card a{
+    text-decoration: none;
+}
+
+.card:hover{
+    border-color: black;
+    transform: scale(1.06); 
+      transition: transform 0.3s;
+}
+.card1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    flex-grow: 1;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+.footer {
+    background-color: black;
+    color: grey;
+    padding: 20px 0;
+    font-size: 14px;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color:  grey;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: white;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    font-size: 24px;
+}
+
+.social-media a:hover {
+    color: black;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid white;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.jumbotron {
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.jumbotron-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.jumbotron h2 {
+    font-size: 2rem;
+    margin: 20px 0 0;
+}
+#textshoes{
+    color: black;
+}
+.lastadi{
+    color: white;
+}
+.card img.default {
+    display: block;
+  }
+  
+.card img.hover {
+    display: none;
+}
+  
+.card:hover img.default {
+    display: none;
+}
+  
+.card:hover img.hover {
+    display: block;
+}
+@media (max-width: 991px) {
+.navbar-nav {
+    flex-direction: row !important;
+    justify-content: center;
+}
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+}
+.footer-section {
+    text-align: center;
+}
+.textforimg, .undertext, .undertext2, #imgbtn {
+    float: none;
+    margin: 20px auto;
+    text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 25px;
+    }
+    .navbar-collapse {
+        display: flex !important;
+        justify-content: center;
+    }
+    .navbar-nav {
+        flex-wrap: wrap;
+    }
+    .card-group, .card-groupbottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card, .card1 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+    .jumbotron h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 20px;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-title {
+        font-size: 1.1rem;
+    }
+    .card-text {
+        font-size: 0.9rem;
+    }
+    .footer-bottom p {
+        font-size: 12px;
+    }
+    .jumbotron {
+        padding: 30px 15px;
+    }
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+}
+#logo
+{
+    height: 50px;
+    width: 60px;
+}
+    </style>
+</body>
+</html>
